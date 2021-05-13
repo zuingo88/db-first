@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+h1,
+h2,
+h3 {
+    margin: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 25px auto;
+    padding: 30px;
+    background-color: cornflowerblue;
+    border: solid 1px crimson;
+    border-radius: 10px;
+}
+
+.column {
+    flex-direction: column;
+}
